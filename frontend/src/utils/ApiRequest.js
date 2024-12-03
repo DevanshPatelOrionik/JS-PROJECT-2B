@@ -1,4 +1,4 @@
-const host = "http://localhost:5000";
+const host = "mongodb+srv://ansh32084:1234@cluster0.l0jt2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 export const setAvatarAPI = `${host}/api/auth/setAvatar`;
 export const registerAPI = `${host}/api/auth/register`;
 export const loginAPI = `${host}/api/auth/login`;
